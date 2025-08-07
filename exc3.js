@@ -9,4 +9,4 @@ var total = price(10.99, 5.50, 3.25);
 console.log("Total price is: R" + total);
 
 // Output to webpage
-document.getElementById("output").textContent = "Total price is: R" + total;
+document.write(total)= "Total price is: R" + total;
